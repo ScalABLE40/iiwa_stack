@@ -43,7 +43,7 @@ import com.kuka.roboticsAPI.motionModel.controlModeModel.JointImpedanceControlMo
 public class MessageGenerator {
 
 	private static String baseFrameID;
-	private static final String baseFrameIDSuffix = "_link_0";
+	private static final String baseFrameIDSuffix = "_link_0_horizontal";
 	private static String[] joint_names;
 
 	private static double[] last_position;
